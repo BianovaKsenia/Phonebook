@@ -31,9 +31,6 @@ namespace TelephoneBook
             if (!(obj is Subscriber))
                 return false;
 
-            //сравнить имя и номер
-
-
             return base.Equals(obj);
         }
 
